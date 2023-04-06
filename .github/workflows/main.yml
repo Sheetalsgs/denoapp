@@ -31,5 +31,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: app-nest # TODO: replace with Deno Deploy project name
-          entrypoint: server/main.js
+          entrypoint: main.js
           root: dist
